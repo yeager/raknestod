@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uraknestod
+Comment=Visual math for children with IF
+Comment[sv]=Visuell matematik för barn
+Exec=raknestod
+Icon=se.danielnylander.raknestod
+Type=Application
+Categories=Education;Accessibility;

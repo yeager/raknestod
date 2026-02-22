@@ -19,7 +19,7 @@ def N_(s): return s
 class MainWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.set_title(_('Räknestöd'))
+        self.set_title(_('Math Support'))
         self.set_default_size(500, 500)
         self._num1 = random.randint(1, 5)
         self._num2 = random.randint(1, 5)
@@ -113,7 +113,7 @@ class App(Adw.Application):
         super().__init__(application_id='se.danielnylander.raknestod')
         self.connect('activate', lambda a: MainWindow(application=a).present())
         about = Gio.SimpleAction.new('about', None)
-        about.connect('activate', lambda a,p: Adw.AboutDialog(application_name=_('Räknestöd'),
+        about.connect('activate', lambda a,p: Adw.AboutDialog(application_name=_('Math Support'),
             application_icon=APP_ID, version=__version__, developer_name='Daniel Nylander',
             website='https://github.com/yeager/raknestod', license_type=Gtk.License.GPL_3_0,
             comments=_('Visual math for children')).present(self.get_active_window()))

@@ -1,5 +1,6 @@
 [Desktop Entry]
-Name=Uraknestod
+Name=Math Support
+Name[sv]=Räknestöd
 Comment=Visual math for children with IF
 Comment[sv]=Visuell matematik för barn
 Exec=raknestod

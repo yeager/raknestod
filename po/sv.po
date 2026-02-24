@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: raknestod\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 17:20+0100\n"
+"POT-Creation-Date: 2026-02-23 11:03+0100\n"
 "PO-Revision-Date: 2026-02-22 16:22+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305244/sv/)\n"
@@ -21,36 +21,53 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/raknestod/main.py:22 src/raknestod/main.py:116
-msgid "Räknestöd"
+#: src/raknestod/main.py:22 src/raknestod/main.py:175
+#: src/raknestod/main.py:183
+msgid "Math Support"
 msgstr "Räknestöd"
 
-#: src/raknestod/main.py:32
+#: src/raknestod/main.py:40
+msgid "Raknestod"
+msgstr "Räknestöd"
+
+#: src/raknestod/main.py:46
 msgid "About"
 msgstr "Om"
 
-#: src/raknestod/main.py:39
+#: src/raknestod/main.py:53
 msgid "Score: 0"
 msgstr "Poäng: 0"
 
-#: src/raknestod/main.py:66
+#: src/raknestod/main.py:80
 msgid "Next →"
 msgstr "Nästa →"
 
-#: src/raknestod/main.py:106
+#: src/raknestod/main.py:120
 msgid "Correct! 🌟"
 msgstr "Rätt! 🌟"
 
-#: src/raknestod/main.py:108
+#: src/raknestod/main.py:122
 #, python-format
 msgid "Try again! The answer is %d"
 msgstr "Försök igen! Svaret är %d"
 
-#: src/raknestod/main.py:109
+#: src/raknestod/main.py:123
 #, python-format
 msgid "Score: %d"
 msgstr "Poäng: %d"
 
-#: src/raknestod/main.py:119
+#: src/raknestod/main.py:156
+msgid "🎉 Du hittade hemligheten!"
+msgstr "🎉 Du hittade hemligheten!"
+
+#: src/raknestod/main.py:178
 msgid "Visual math for children"
 msgstr "Visuell matematik för barn"
+
+#: src/raknestod/main.py:189
+msgid "Description here"
+msgstr "Beskrivning här"
+
+#: src/raknestod/main.py:191
+msgid "Thanks to"
+msgstr "Tack till"
